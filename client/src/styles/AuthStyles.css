@@ -1,0 +1,120 @@
+/*  register page  */
+
+input{
+  color: #ffffff !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px black inset;
+  -webkit-text-fill-color: white !important;
+  background-color: black !important;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px black inset;
+  -webkit-text-fill-color: white !important;
+  background-color: black !important;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder{
+  color: rgba(255, 255, 255, 0.615);
+}
+
+
+.card{
+  background-color: #434343 !important;
+  color: #dad3d3 !important;
+}
+
+.dashboard{
+  margin-top: 81px !important;
+  color: aliceblue;
+}
+
+.dashboard-menu h4{ 
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #000000;
+  background-image: linear-gradient(0deg, #14181c 0%, #000000 100%);
+}
+
+.form-container form {
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #171515bf;
+}
+
+.form-container form .title {
+  color: #39ff14;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+.form-container form button {
+  width: 100% !important;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: #39ff14;
+  color: black;
+  width: 250px;
+}
+
+.form-container form button:hover {
+  border: 1px solid black;
+  font-weight: bold;
+  color: #000;
+  background: #39ff14; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #37ff14c2,
+    #39ff14
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #37ff14c2,
+    #39ff14
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-control{
+  background-color: #000;
+  
+}
+
+.form-control:focus{
+  background-color: #000;
+  border-bottom: 0.4px solid #39ff14;
+}
+
+.form-control:hover{
+  background-color: #000;
+  border-bottom: 0.4px solid #39ff14;
+}
+
+.forgot-btn {
+  background-color: #6e6c6cad !important;
+  color: #fff !;
+  border: 0 !important;
+}
+
+.forgot-btn:hover {
+  color: black !important;
+}
